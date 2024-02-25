@@ -1,10 +1,7 @@
 <?php
 namespace App\crm\auth\login\service;
-
 use App\crm\auth\login\request\loginRequest;
 use App\crm\user\models\User;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 class loginService{
     public function login(loginRequest $request)
