@@ -16,7 +16,7 @@ class customerCreation
      * Create a new event instance.
      */
     private Customer $customer;
-    public function __construct(Customer $customer)
+    public function __construct(Customer $customer) 
     {
         $this->setCustomer($customer);
     }
